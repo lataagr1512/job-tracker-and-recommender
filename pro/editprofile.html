@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Edit Profile Form</title>
+    <style>
+      /* Form container */
+      .form-container {
+        background: #b161c9;
+        max-width: 500px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #d881e4;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+body {
+  font-family: montserrat;
+  background-color: rgb(239, 218, 241);
+}
+      /* Form input fields */
+      input[type="text"],
+      input[type="profession"],
+      input[type="skills"] {
+        width: 100%;
+        padding: 12px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ca65d3;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      /* Form submit button */
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: rgb(255, 255, 255);
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      /* Form submit button on hover */
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Edit Profile</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="Profession">Profession</label>
+        <input type="profession" id="profession" name="profession" placeholder="Enter your profession" required>
+
+        <label for="skills">Skills</label>
+        <input type="skills" id="skills" name="skills" placeholder="Enter your skills" required>
+
+        <input type="submit" value="Save Changes">
+      </form>
+    </div>
+  </body>
+</html>

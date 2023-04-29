@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+ 
+.logo {
+    position: relative;
+    color: rgb(17, 1, 24);
+    font-size: 35px;
+    font-family: 'Special Elite', cursive;
+    margin: 0;
+    padding: 0;
+    top: -23px;
+    letter-spacing: 5px;
+    display: inline-block;
+}
+    
+    
+    
+nav ul {
+      text-align: right;
+      background: linear-gradient(to left,#bb91c9 ,#402e6d);
+      margin: 0;
+      padding-right: 40px;
+    }
+  
+a:link, a:visited{
+      text-decoration: none;
+    }
+    
+nav li {
+      display: inline-block;
+      padding: 25px 20px;
+      /* margin: 0 8px; */
+      /* line-height: 80px; */
+    }
+    
+nav a {
+      color: black;
+      font-size: 15px;
+      font-weight: bold;
+      font-family: 'Open Sans', sans-serif;
+      border: 1px solid transparent;
+      padding: 7px 10px;
+      border-radius: 3px;
+      align-items: center;
+      letter-spacing: 1px;
+}
+    
+a:hover {
+      /* border: 1px solid white; */
+      border: none;
+      color: white;
+}
+    
+nav .logoImg {
+      padding: 15px 20px;
+      height: 40px;
+}
+    
+.twoTogethers {
+      display: inline-block;
+      align-items: center;
+      position: absolute;
+      height: 70px;
+}
+
+.profile-btn-img{
+    width: 52px;
+    height: 49px;
+    position: absolute;
+    border-radius: 45px;
+    top: 10px;
+    right: 51px;
+    box-shadow: 3px 3px 5px #d1d4d5;
+}
+
+.profile-btn-img:hover{
+    scale: 1.2;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px #998dad;
+}
+
+.course-page-head{
+    text-align: center;
+    /* margin: auto; */
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 4rem;
+    margin-bottom: -1rem;
+}
+
+.grey-container{
+    width: 51rem;
+    height: 26rem;
+    background: #c3bfbf;
+    display: flex;
+    margin: auto;
+    margin-top: 4rem;
+    border-radius: 13px;
+}
+
+#inner-cij-box{
+    width: 302px;
+    height: 300px;
+    background: #875ead;
+    border-radius: 13px;
+    display: flex;
+    margin: auto;
+    margin-top: 5rem;
+    margin-left: 4rem;
+    
+}
+
+#inner-cij-box:hover{
+  scale: 1.1;
+}
+#inner-box-head{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    height: 30px;
+    margin-bottom: 0px;
+    margin-top: 2rem;
+    position: absolute;
+    opacity: purple(0.33);
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+}
+
+.one-inner-head{
+    left: 30rem;
+    font-weight: 200;
+}
+
+.two-inner-head{
+    left: 55rem;
+}
+
+.three-inner-head{
+    left: 55rem;
+    font-weight: 200;
+}
+
+#icon-img{
+    display: flex;
+    position: absolute;
+    width: 12rem;
+}
+
+.course-icon{
+    left: 27rem;
+    top: 21rem;
+
+}
+.intern-icon{
+    left: 51rem;
+    top: 21rem;
+}
+
